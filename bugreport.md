@@ -8,5 +8,5 @@
 | B05  | The arrow on the side of the text field looks like a button, but nothing happens when you press it | Low  | Remove or change  |  ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/arrow.png) |
 | B06  | Pressing terms and conditions, the user is taken to the Privacy. | Low  | Switch link with privacy  |  ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/termsandprivacy.png)|
 | B07  | Pressing privacy, the user is taken to the terms and conditions. | Low  | Switch link with terms and conditions | ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/termsandprivacy.png) |
-| B08  | If a number between 171 and 989 is entered, you will get the answer infinity | Medium | Have some kind of handling or an error message |  ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/infinity.png)  |
+| B08  | If a number between 171 and 989 is entered, you will get the answer infinity | Medium | Have some kind of handling or an error message |  ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/Infinity.png)  |
 | B09  | Displays the 2022 twice in the footer | Low | Only display once  | ![alt text](https://github.com/siireen/qainterview/blob/main/pictures/footer.png)   |

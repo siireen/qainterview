@@ -14,31 +14,30 @@ let inputIntergerNumber = 5;
     await calculateButton.click();
 
     await driver.sleep(100); // wait for the text with the numbers to appear. 
-    //await driver.manage().setTimeouts( { implicit: 10000 } );
 
     let resultText = await driver.findElement(By.id('resultDiv')).getText(); 
     var factorialNumber = resultText.match(/\d+/g, '');
 
     let realanswer = factorial(inputIntergerNumber);
     
-    
     if (realanswer == factorialNumber[1]){
-        console.log("They are the same")
+      console.log("The test is successed, and the numbers are the same, so the factorial of " + inputIntergerNumber + " is: " + factorialNumber[1]);
     }
     else {
-        console.log("They are not the same")
+      console.log("The test failed due to the factorial numbers not being the same");
     }
-   
+ 
     await driver.quit();
 })();
 
 
-function factorial(n){
+function factorial(intNumber){
     let answer = 1;
-    if (n == 0 || n == 1){
+    if (intNumber == 0 || intNumber == 1){
       return answer;
-    }else{
-      for(var i = n; i >= 1; i--){
+    }
+    else{
+      for(var i = intNumber; i >= 1; i--){
         answer = answer * i;
       }
       return answer;

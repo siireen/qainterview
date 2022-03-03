@@ -1,7 +1,7 @@
 
 |  Bug ID | Description | Severity  | Possible solution| Picture  |
 |---|---|---|---|---|
-| B01  | There is a typo in the title. It say Facotriall |  Low | Should be Factorial  |![alt text](https://github.com/siireen/qainterview/pictures/factoriall.png) |
+| B01  | There is a typo in the title. It say Facotriall |  Low | Should be Factorial  |![alt text](https://github.com/siireen/qainterview/blob/main/pictures/factoriall.png) |
 | B02  | There is no favicon  |  Low |   |   |
 | B03  | There is no error message  or handling of negative numbers. Gets a 500 error in the console.  | High |  Get an error message when trying to caculate a negative number |   |
 | B04  | There is no error message or handling of large numbers. Get error 500 in console. This is for numbers above 989. | High  |   |   |
